@@ -9,7 +9,7 @@ namespace ApiTest.Resource
 {
     public class Conn
     {
-        public static string cadenaConexion = "Data Source=179.43.114.86;Initial Catalog=ALLADIO;User ID=ALLADIO;Password=ALLADIO*456";
+        public static string cadenaConexion = "Data Source=;Initial Catalog=;User ID=;Password=";
         public static DataSet ListarTablas(string nombreProcedimiento, List<Parametro> parametros = null)
         {
             var conexion = new SqlConnection(cadenaConexion);
